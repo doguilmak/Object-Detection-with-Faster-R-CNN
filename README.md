@@ -63,8 +63,7 @@ Apply object detection with <i>Faster R-CNN</i> to classify predetermined object
 
 <a  href='https://arxiv.org/abs/1506.01497?utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_content=000026UJ&utm_term=10006555&utm_id=NA-SkillsNetwork-Channel-SkillsNetworkCoursesIBMDeveloperSkillsNetworkCV0101ENCoursera25797139-2021-01-01'>Faster R-CNN</a> is a model that predicts both bounding boxes and class scores for potential objects in the image pre-trained on <a  href="https://cocodataset.org/?utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_content=000026UJ&utm_term=10006555&utm_id=NA-SkillsNetwork-Channel-SkillsNetworkCoursesIBMDeveloperSkillsNetworkCV0101ENCoursera25797139-2021-01-01">COCO</a>. Faster R-CNN model with a ResNet-50-FPN backbone from <a  href='https://arxiv.org/abs/1506.01497'>the Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks paper.</a>
 
-<img width=1000 height=350 src="https://www.researchgate.net/profile/Andra-Petrovai/publication/329616112/figure/fig1/AS:739657281191939@1553359446745/A-shared-ResNet-FPN-network-is-used-for-3-tasks-The-Faster-RCNN-head-performs-object.ppm">
-
+<img width=1000 height=350 src="ResNet-50-FPN.png">
 
 <small>Picture Source: <a  href="https://www.researchgate.net/profile/Andra-Petrovai/publication/329616112/figure/fig1/AS:739657281191939@1553359446745/A-shared-ResNet-FPN-network-is-used-for-3-tasks-The-Faster-RCNN-head-performs-object.ppm">Andra Petrovai</a>
 
@@ -81,8 +80,6 @@ Apply object detection with <i>Faster R-CNN</i> to classify predetermined object
 $$||box\ - \hat{box}||^2 = (y_{min} - \hat{y}_{min})^2 + (y_{max} - \hat{y}_{max})^2 + (x_{min} - \hat{x}_{min})^2 + (x_{max} - \hat{x}_{max})^2$$
 
 <img src="car_plane_BOX.png">
-
-<br>
 
 <h2>References</h2>
 
