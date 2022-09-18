@@ -17,13 +17,13 @@
 <p>Types of Object Detection Sliding window techniques are slow. Fortunately, there are two major types of object detection that speed up the process. <i>Region-based object detection</i> breaks up the image into regions and performs a prediction, while <i>Single-Stage object detection </i>uses the entire image.</p>
 
 <ul>
-<li><i>Region-Based Convolutional Neural Network (R-CNN)</i> are usually more accurate but slower; they include R-CNN, fast RCNN and Faster RCNN.</li>
-<li><i>Single-Stage</i> methods are faster but less accurate and include techniques like Single Shot Detection (SSD) and You Only Look Once (YOLO).</li>
+<li><b><i>Region-Based Convolutional Neural Network (R-CNN)</i></b> are usually more accurate but slower; they include <i>R-CNN</i>, <i>Fast R-CNN</i> and <i>Faster R-CNN</i>.</li>
+<li><b><i>Single-Stage</i></b> methods are faster but less accurate and include techniques like <i>Single Shot Detection (SSD)</i> and <i>You Only Look Once (YOLO)</i>.</li>
 </ul>
 
 <br>
 
-<p>In the following two labs, you will use Faster RCNN for prediction. You will train an SSD model, even though SSD is considerably faster than other methods, it will still take a long time to train. Therefore we will train most of the model for you, and you will train the model for the last few iterations.</p>
+<p>In the following two labs, you will use <i>Faster R-CNN</i> for prediction. You will train an <i>SSD</i> model, even though <i>SSD</i> is considerably faster than other methods, it will still take a long time to train. Therefore we will train most of the model for you, and you will train the model for the last few iterations.</p>
 
 <br>
 
