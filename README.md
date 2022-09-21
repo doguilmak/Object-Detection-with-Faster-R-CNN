@@ -93,6 +93,8 @@ $$||box\ - \hat{box}||^2 = (y_{min} - \hat{y}_{min})^2 + (y_{max} - \hat{y}_{max
 
 <small>Probability: 0.9993621706962585</small>
 
+<br> 
+ 
 <small>Label: <b>airplane</b></small>
 
 <small>Box coordinates: 62, 213, 614, 351</small>
