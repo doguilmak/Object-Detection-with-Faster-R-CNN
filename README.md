@@ -101,6 +101,8 @@ $$||box\ - \hat{box}||^2 = (y_{min} - \hat{y}_{min})^2 + (y_{max} - \hat{y}_{max
 
 <small>Probability: 0.9987056255340576</small>
 
+<br>
+
 <h2>References</h2>
 
 <ul>
