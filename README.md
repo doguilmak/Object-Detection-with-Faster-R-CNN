@@ -2,7 +2,7 @@
 
  <img  src="https://cdn.shopify.com/s/files/1/0533/4158/5598/articles/how-to-run-tensorflow-object-detection-in-real-time-with-raspberry-v2-csi-camera-on-nvidia-jetson-nano-447485.jpg?v=1659971239"  width=1000  height=500  alt="https://www.forecr.io/blogs/ai-algorithms/how-to-run-tensorflow-object-detection-in-real-time-with-raspberry-v2-csi-camera-on-nvidia%C2%AE-jetson%E2%84%A2-nano%E2%84%A2">
 
-<small>Picture Source: <a  href="https://www.forecr.io/blogs/ai-algorithms/how-to-run-tensorflow-object-detection-in-real-time-with-raspberry-v2-csi-camera-on-nvidia%C2%AE-jetson%E2%84%A2-nano%E2%84%A2">forecr</a>
+<small>Picture Source: <a  href="https://www.forecr.io/blogs/ai-algorithms/how-to-run-tensorflow-object-detection-in-real-time-with-raspberry-v2-csi-camera-on-nvidia%C2%AE-jetson%E2%84%A2-nano%E2%84%A2">forecr</a></small>
 
 <h2>Description</h2>
 
@@ -87,17 +87,17 @@ $$||box\ - \hat{box}||^2 = (y_{min} - \hat{y}_{min})^2 + (y_{max} - \hat{y}_{max
 
 <p>Function output:</p>
 
-<small>Label: <b>car</b>
+<small>Label: <b>car</b></small>
 
-Box coordinates: 433, 377, 723, 460
+<small>Box coordinates: 433, 377, 723, 460</small>
 
-Probability: 0.9993621706962585</small>
+<small>Probability: 0.9993621706962585</small>
 
-<small>Label: <b>airplane</b>
+<small>Label: <b>airplane</b></small>
 
-Box coordinates: 62, 213, 614, 351
+<small>Box coordinates: 62, 213, 614, 351</small>
 
-Probability: 0.9987056255340576</small>
+<small>Probability: 0.9987056255340576</small>
 
 <h2>References</h2>
 
