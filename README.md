@@ -69,7 +69,7 @@ Apply object detection with <i>Faster R-CNN</i> to classify predetermined object
 
 <h3>Training for Object Detection</h3>
 
-<p>Object detection is based on two principles. The first is the learnable parameters in the created rectangle (box), and the second is the size of the created box (coordinate information). While the model is being trained, ground truth and prediction values ​​are evaluated with the difference of squares. Evaluations depend on the size of the ground truth rectangles created through functions. The functions calculate the difference between the ground truth box and the predicted rectangle.</p>
+<p>Object detection is based on two principles. The first is the learnable parameters in the created rectangle (box), and the second is the size of the created box (coordinate information). While the model is being trained, ground truth and prediction values are evaluated with the difference of squares. Evaluations depend on the size of the ground truth rectangles created through functions. The functions calculate the difference between the ground truth box and the predicted rectangle.</p>
 
 <b>Loss equasion:</b>
 
@@ -83,7 +83,7 @@ $$||box\ - \hat{box}||^2 = (y_{min} - \hat{y}_{min})^2 + (y_{max} - \hat{y}_{max
 
 <h4>Image With Object Detection</h4>
 
-<img src="car_plane_BOX.png">
+<img width=1000  height=500 src="car_plane_BOX.png">
 
 <h2>References</h2>
 
