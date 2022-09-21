@@ -85,6 +85,16 @@ $$||box\ - \hat{box}||^2 = (y_{min} - \hat{y}_{min})^2 + (y_{max} - \hat{y}_{max
 
 <img width=1000  height=500 src="car_plane_BOX.png">
 
+<p>Function output:</p>
+
+<p>Label: <b>car</b>
+Box coordinates: 433, 377, 723, 460
+Probability: 0.9993621706962585</p>
+
+<p>Label: <b>airplane</b>
+Box coordinates: 62, 213, 614, 351
+Probability: 0.9987056255340576</p>
+
 <h2>References</h2>
 
 <ul>
