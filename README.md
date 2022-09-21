@@ -75,6 +75,8 @@ Apply object detection with <i>Faster R-CNN</i> to classify predetermined object
 
 $$||box\ - \hat{box}||^2 = (y_{min} - \hat{y}_{min})^2 + (y_{max} - \hat{y}_{max})^2 + (x_{min} - \hat{x}_{min})^2 + (x_{max} - \hat{x}_{max})^2$$
 
+<br>
+
 <h4>Image Without Object Detection (Original Image)</h4>
 
 <img width=1000  height=500 src="quantas-car-v-plane-TAKE-OFF.jpg">
