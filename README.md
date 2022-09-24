@@ -4,6 +4,8 @@
 
 <small>Picture Source: <a  href="https://www.forecr.io/blogs/ai-algorithms/how-to-run-tensorflow-object-detection-in-real-time-with-raspberry-v2-csi-camera-on-nvidia%C2%AE-jetson%E2%84%A2-nano%E2%84%A2">forecr</a></small>
 
+<br>
+
 <h2>Description</h2>
 
 <h3>Context</h3>
