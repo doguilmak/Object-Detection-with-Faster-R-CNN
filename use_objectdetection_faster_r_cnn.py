@@ -83,22 +83,21 @@ Original file is located at
     <li>Gonzalez, Rafael C., and Richard E. Woods. "Digital image processing." (2017).</li>
 </ul>
 
-<h2>Objective for This Notebook</h2>
+<br>
 
-Apply Object detection with Faster R-CNN to classify  predetermined objects using objects name and/or to use the likelihood of the object.
+<h1>Objective for this Notebook</h1>
 
-<ul>
-    <li><a href='https://#MI'>Object detection with Faster R-CNN </a>
-        <ul>
-            <li>Import Libraries and Define Auxiliary Functions  </li>
-            <li>Load Pre-trained Faster R-CNN </li>
-            <li>Object Localization </li>
-            <li>Object Detection  </li>
-            <li>Test Model With An Uploaded Image </li>
-        </ul>
-</ul>
+<p>Apply Object detection with Faster R-CNN to classify predetermined objects using objects name and/or to use the likelihood of the object.</p>
 
-Estimated time needed: **30** minutes
+<div class="alert alert-block alert-info" style="margin-top: 20px">
+<li><a href="https://#importing_libraries">Import Libraries and Define Auxiliary Functions</a></li>
+<li><a href="https://#load_faster_rcnn">Load Pre-trained Faster R-CNN</a></li>
+<li><a href="https://#object_localization">Object Localization</a></li>
+<li><a href="https://#test_model_uploaded">Test Model With an Uploaded Image</a></li>
+<br>
+<p></p>
+Estimated Time Needed: <strong>30 min</strong>
+</div>
 
 <hr>
 
@@ -110,7 +109,11 @@ Download the image for the labs:
 ! wget https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CV0101EN-Coursera/images%20/images_part_5/istockphoto-187786732-612x612.jpeg
 ! wget https://cdn.webrazzi.com/uploads/2015/03/andrew-ng1.jpg
 
-"""## Import Libraries and Define Auxiliary Functions
+"""<br>
+
+<a id="importing_libraries"></a>
+
+<h2 align=center>Import Libraries and Define Auxiliary Functions</h2>
 
 Deep-learning libraries, may have to update:
 
@@ -231,13 +234,13 @@ def save_RAM(image_=False):
         image.close()
         del(image)
 
-"""## Load Pre-trained Faster R-CNN
+"""<br>
+
+<a id="load_faster_rcnn"></a>
+
+<h2 align=center>Load Pre-trained Faster R-CNN</h2>
 
 <a href='https://arxiv.org/abs/1506.01497?utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_content=000026UJ&utm_term=10006555&utm_id=NA-SkillsNetwork-Channel-SkillsNetworkCoursesIBMDeveloperSkillsNetworkCV0101ENCoursera25797139-2021-01-01'>Faster R-CNN</a> is a model that predicts both bounding boxes and class scores for potential objects in the image  pre-trained on <a href="https://cocodataset.org/?utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_content=000026UJ&utm_term=10006555&utm_id=NA-SkillsNetwork-Channel-SkillsNetworkCoursesIBMDeveloperSkillsNetworkCV0101ENCoursera25797139-2021-01-01">COCO</a>. Faster R-CNN model with a ResNet-50-FPN backbone from <a href='https://arxiv.org/abs/1506.01497'>the Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks paper.</a>
-
-<img src="https://www.researchgate.net/profile/Andra-Petrovai/publication/329616112/figure/fig1/AS:739657281191939@1553359446745/A-shared-ResNet-FPN-network-is-used-for-3-tasks-The-Faster-RCNN-head-performs-object.ppm" width=1000 height=350 alt="https://www.researchgate.net/profile/Andra-Petrovai/publication/329616112/figure/fig1/AS:739657281191939@1553359446745/A-shared-ResNet-FPN-network-is-used-for-3-tasks-The-Faster-RCNN-head-performs-object.ppm">
-
-<small>Picture Source: <a href="https://www.researchgate.net/profile/Andra-Petrovai/publication/329616112/figure/fig1/AS:739657281191939@1553359446745/A-shared-ResNet-FPN-network-is-used-for-3-tasks-The-Faster-RCNN-head-performs-object.ppm">Andra Petrovai</a>
 
 <br>
 """
@@ -278,7 +281,11 @@ COCO_INSTANCE_CATEGORY_NAMES = [
 ]
 len(COCO_INSTANCE_CATEGORY_NAMES)
 
-"""## Object Localization
+"""<br>
+
+<a id="object_localization"></a>
+
+<h2 align=center>Object Localization</h2>
 
 In Object Localization we locate the presence of objects in an image and indicate the location with a bounding box. Consider the image of <a href="https://www.linkedin.com/in/andrewyng">Andrew Ng</a>
 """
@@ -508,7 +515,11 @@ del pred_thresh
 
 save_RAM(image_=True)
 
-"""## Test Model With An Uploaded Image
+"""<br>
+
+<a id="test_model_uploaded"></a>
+
+<h2 align=center>Test Model With an Uploaded Image</h2>
 
 Replace with the name of your image as seen in your directory into <code>img_path</code> variable.
 """
@@ -527,12 +538,16 @@ pred = model(img.unsqueeze(0))
 pred_thresh=get_predictions(pred,threshold=0.95)
 draw_box(pred_thresh, img, download_image=True, img_name="me_BOX")
 
-"""<hr>
+"""<br>
 
 <h1>Contact Me<h1>
+<p>If you have something to say to me please contact me:</p>
 
-<p>If you have something to say to me please contact me:<p>
-
-*   Twitter: https://twitter.com/Doguilmak
-*   Mail address: doguilmak@gmail.com
+<ul>
+  <li>Twitter: <a href="https://twitter.com/Doguilmak">Doguilmak</a></li>
+  <li>Mail address: doguilmak@gmail.com</li>
+</ul>
 """
+
+from datetime import datetime
+print(f"Changes have been made to the project on {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
