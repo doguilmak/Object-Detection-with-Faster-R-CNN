@@ -25,7 +25,7 @@
 
 <br>
 
-<p>In the following two labs, you will use <i>Faster R-CNN</i> for prediction. You will train an <i>SSD</i> model, even though <i>SSD</i> is considerably faster than other methods, it will still take a long time to train. Therefore we will train most of the model for you, and you will train the model for the last few iterations.</p>
+<p>In the following lab, you will use <i>Faster R-CNN</i> for prediction. You will train an <i>SSD</i> model, even though <i>SSD</i> is considerably faster than other methods, it will still take a long time to train. Therefore we will train most of the model for you, and you will train the model for the last few iterations.</p>
 
 <br>
 
